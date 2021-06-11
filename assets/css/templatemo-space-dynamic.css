@@ -239,9 +239,10 @@ header
 */
 
 .background-header {
-  background-color: #fff!important;
+  background: transparent;
+  /* background-color: #fff!important; */
   height: 80px!important;
-  position: fixed!important;
+  /* position: fixed!important; */
   top: 0px;
   left: 0px;
   right: 0px;
@@ -262,7 +263,8 @@ header
 }
 
 .header-area {
-  background-color: #fafafa;
+  background: transparent;
+  /* background-color: #fafafa; */
   position: absolute;
   top: 0px;
   left: 0px;
@@ -282,7 +284,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 100px;
-  color: #fff;
+  /* color: #fff; */
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
@@ -292,6 +294,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+.header-area .main-nav .logo img {
+  height: 10%;
+  width: 10%;
+  vertical-align: middle
 }
 
 .header-area .main-nav .logo h4 {
@@ -628,7 +636,8 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background: transparent;
+    /* background-color: #f7f7f7; */
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -876,7 +885,7 @@ Banner Style
 .main-banner .left-content h2 {
   font-size: 50px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #144A10;
   line-height: 72px;
 }
 
@@ -890,6 +899,7 @@ Banner Style
 }
 
 .main-banner .left-content p {
+  color: #144A10;
   margin: 20px 0px;
 }
 
@@ -908,7 +918,7 @@ Banner Style
   background-color: #fff;
   font-size: 15px;
   font-weight: 500;
-  color: #fe3f40;
+  color: #144A10;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -920,7 +930,7 @@ Banner Style
 .main-banner .left-content form input {
   width: 470px;
   height: 66px;
-  background-color: #03a4ed;
+  background-color: #144A10;
   border-radius: 33px;
   border: none;
   outline: none;
