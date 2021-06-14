@@ -1436,8 +1436,40 @@ footer p {
   margin: 30px 0px 45px 0px;
 }
 
-footer p a {
-  color: #fe3f40;
+footer { 
+  text-align: center;
+}
+
+footer ul {
+  text-align: center; list-style-type: none;
+}
+
+ul#social-icon li {
+  padding: 0px 10px;
+  display: inline;
+}
+
+.fa-linkedin {
+  font-size: 30px;
+  position: relative;
+}
+
+.fa-instagram {
+  font-size: 30px;
+  position: relative;
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-tiktok {
+  font-size: 30px;
+  position: relative;
+  color: #000000;
 }
 
 /* 
