@@ -852,7 +852,6 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/baner-dec-left.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -863,7 +862,6 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/baner-dec-right.png);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -963,27 +961,36 @@ About Us Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 100%;
-  display: table;
+  overflow: hidden;
+  position: relative;
+  width: 100%
 }
 
-.about-us .left {
-  width: 60%;
-  height: 100%;
-  float: left;
-  padding-right: 50px;
-  padding-top: 50px;
-}
-
-.about-us .left h2 {
+.about-us .left-content h2 {
   font-size: 50px;
   font-weight: 700;
   color: #fff;
   line-height: 72px;
 }
 
-.about-us .left p {
+.about-us .left-content p {
   color: #fff;
+  margin: 20px 0px;
+}
+
+.about-us .right-content {
+  background-color: #fff;
+  text-align: center;
+  height: 100%;
+}
+
+.about-us .right-content img {
+  padding-top: 50px;
+  width: 40%;
+}
+
+.about-us .right-content p {
+  color: #144A10;
   margin: 20px 0px;
 }
 
@@ -994,26 +1001,6 @@ About Us Style
   -webkit-text-decoration: underline;
   -webkit-text-decoration-color: #fff;
 } */
-
-.about-us .right {
-  width: 40%;
-  height: 100%;
-  float: right;
-  padding-left: 50px;
-  background-color: #fff;
-  text-align: center;
-}
-
-.about-us .right img {
-  padding-top: 50px;
-  width: 40%;
-  height: 40%;
-}
-
-.about-us .right p {
-  color: #144A10;
-  margin: 20px 0px;
-}
 
 /* 
 ---------------------------------------------
@@ -1068,12 +1055,6 @@ responsive
 --------------------------------------------- 
 */
 
-@media (max-width: 1645px) {
-  form#contact .contact-dec {
-    display: none;
-  }
-}
-
 @media (max-width: 992px) {
   .main-banner {
     padding-top: 196px;
@@ -1099,112 +1080,7 @@ responsive
     background-image: none;
     padding: 0px;
   }
-  .about-us .left-image {
-    margin-right: 0px;
-    position: absolute;
-    bottom: -220px;
-    right: 0;
-  }
-  .about-us .services {
-    text-align: center;
-  }
-  .about-us .services .item  {
-    background: rgb(255,77,30);
-    background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
-    padding: 30px;
-    border-radius: 20px;
-    display: inline-block;
-  }
-  .about-us .services .item .right-text {
-    text-align: left;
-  }
-  .our-services {
-    margin-top: 200px;
-  }
-  .our-services .left-image {
-    margin-right: 0px;
-    margin-bottom: 45px;
-  }
-  .our-services .section-heading h2,
-  .our-services .section-heading p {
-    margin-right: 0px;
-    text-align: center;
-  }
-  .our-portfolio .section-heading h2 {
-    margin: 0px 0px 80px 0px;
-  }
-  .our-portfolio .item {
-    margin-bottom: 15px;
-  }
-  .our-blog {
-    margin-top: 0px;
-  }
-  .our-blog .top-dec {
-    display: none;
-  }
-  .our-blog .section-heading h2 {
-    margin-right: 0px;
-    text-align: center;
-    margin-bottom: 45px;
-  }
-  .our-blog .left-image .info .inner-content {
-    position: relative;
-    margin-right: 0px;
-  }
-  .our-blog .left-image .info .main-blue-button {
-    position: relative;
-    bottom: 0px;
-    margin-top: 30px;
-  }
-  .our-blog .left-image {
-    margin-bottom: 45px;
-  }
-  .contact-us {
-    margin-top: 60px;
-    padding: 120px 0px;
-  }
-  .contact-us .section-heading {
-    text-align: center;
-  }
-  form#contact {
-    margin-left: 0px;
-    margin-top: 30px;
-  }
-  form#contact .contact-dec {
-    display: none;
-  }
   footer p {
     margin: 15px 0px 30px 0px;
-  }
-}
-
-@media (max-width: 767px) {
-  .about-us .left-image {
-    bottom: -280px;
-  }
-  .our-blog .right-list {
-    margin-left: 0px;
-  }
-  .our-blog .right-list ul li {
-    display: inline-block;
-    margin-top: 0px;
-    padding-top: 30px;
-    border-top: 1px solid #eee;
-  }
-  .our-blog .right-list .left-content {
-    margin-right: 0px;
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  .our-blog .right-list .right-image,
-  .our-blog .right-list .right-image img {
-    width: 100%;
-  }
-  .phone-info h4 span {
-    display: block;
-    margin-top: 15px;
-  }
-  .phone-info h4 span i {
-    margin-left: 0px;
   }
 }
