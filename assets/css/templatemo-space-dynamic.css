@@ -944,6 +944,16 @@ Banner Style
   color: #fff;
 }
 
+.main-banner .right-content {
+  display: flex;
+  align-items: center;
+}
+
+.main-banner .right-content img {
+  height: auto;
+  margin: auto;
+}
+
 
 
 /* 
