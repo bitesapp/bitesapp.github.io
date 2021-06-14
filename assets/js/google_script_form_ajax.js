@@ -15,8 +15,15 @@ $.fn.serializeObject = function()
    return o;
 };
 
-var $form = $('form#email-form'),
-    url = 'https://script.google.com/macros/s/AKfycbxls4Q4OHe72TRDd75UidO0Fd6lsXcoL0YOyMipiBRbNheFf7iNHaGPRUvTUi_VUp8LTg/exec'
+var $form = $("form#email-form"),
+    url = "https://script.google.com/macros/s/AKfycbxls4Q4OHe72TRDd75UidO0Fd6lsXcoL0YOyMipiBRbNheFf7iNHaGPRUvTUi_VUp8LTg/exec"
+
+function submitFormSuccess() {
+    console.log('Sucessfully added email!');
+    $('form#email-form')[0].reset();
+    document.getElementById('submitted').style.display = "block";
+    return false; // Prevent page refresh
+    }
 
 $('#submit-form').on('click', function(e) {
   e.preventDefault();
@@ -25,6 +32,6 @@ $('#submit-form').on('click', function(e) {
     method: "GET",
     dataType: "json",
     data: $form.serializeObject(),
-    success: console.log('Successfully added email!')
+    success: submitFormSuccess()
   });
 })

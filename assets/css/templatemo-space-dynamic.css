@@ -954,6 +954,16 @@ Banner Style
   margin: auto;
 }
 
+.main-banner .submitted {
+  display: none;
+  text-align: center;
+}
+
+.main-banner .submitted p {
+  color: #000;
+  font-size: 13px;
+}
+
 
 
 /* 
