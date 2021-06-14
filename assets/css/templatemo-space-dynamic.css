@@ -959,41 +959,32 @@ About Us Style
 }
 
 .about-us {
-  background-image: url(../images/about-bg.png);
+  background-color: #144A10;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   padding: 140px 0px 120px 0px;
 }
 
-.about-us .left-image {
-  margin-right: 45px;
-}
-
-.about-us .services .item {
-  margin-bottom: 30px;
-}
-
-.about-us .services .item .icon {
-  float: left;
-  margin-right: 25px;
-}
-
-.about-us .services .item .icon img {
-  max-width: 70px;
-}
-
-.about-us .services .item h4 {
-  color: #fff;
-  font-size: 20px;
+.about-us h2 {
+  font-size: 50px;
   font-weight: 700;
-  margin-bottom: 12px;
-}
-
-.about-us .services .item p {
   color: #fff;
+  line-height: 72px;
 }
 
+.about-us p {
+  color: #fff;
+  margin: 20px 0px;
+}
+
+/* .about-us a {
+  color: #fff; 
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  -webkit-text-decoration: underline;
+  -webkit-text-decoration-color: #fff;
+} */
 
 /* 
 ---------------------------------------------
