@@ -93,13 +93,13 @@
                <!-- wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s"> -->
                 <h2>Tired of spending too long deciding where to eat with friends?</h2>
                 <p>Bites recommends restaurants inclusive of each group member’s preferences & steamlines group logistics to make dining with a group an enjoyable experience!</p>
-                <form id="search" action="#" method="GET">
-                  <fieldset>
-                    <input type="address" name="address" class="email" placeholder="Enter email address..." autocomplete="on" required>
-                  </fieldset>
-                  <fieldset>
-                    <button type="submit" class="main-button">Get Early Access</button>
-                  </fieldset>
+                <form id="email-form">
+                  <div>
+                    <input type="email" name="email" class="email" placeholder="Enter email address..." autocomplete="on" required>
+                  </div>
+                  <div>
+                    <button type="submit" id="submit-form" class="main-button">Get Early Access</button>
+                  </div>
                 </form>
               </div>
             </div>
@@ -198,6 +198,7 @@
       </div>
     </div>
   </footer>
+
   <!-- Scripts -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -205,6 +206,7 @@
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/templatemo-custom.js"></script>
+  <script src="assets/js/google_script_form_ajax.js"></script>
 
 </body>
 </html>
