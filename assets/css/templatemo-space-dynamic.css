@@ -963,17 +963,27 @@ About Us Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 140px 0px 120px 0px;
+  /* padding: 140px 0px 120px 0px; */
+  width: 100%;
+  display: table;
 }
 
-.about-us h2 {
+.about-us .left {
+  width: 60%;
+  height: 100%;
+  float: left;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+.about-us .left h2 {
   font-size: 50px;
   font-weight: 700;
   color: #fff;
   line-height: 72px;
 }
 
-.about-us p {
+.about-us .left p {
   color: #fff;
   margin: 20px 0px;
 }
@@ -985,6 +995,26 @@ About Us Style
   -webkit-text-decoration: underline;
   -webkit-text-decoration-color: #fff;
 } */
+
+.about-us .right {
+  width: 40%;
+  height: 100%;
+  float: right;
+  padding-left: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about-us .right img {
+  padding-top: 50px;
+  width: 40%;
+  height: 40%;
+}
+
+.about-us .right p {
+  color: #144A10;
+  margin: 20px 0px;
+}
 
 /* 
 ---------------------------------------------
