@@ -241,9 +241,7 @@ header
 
 .background-header {
   background: transparent;
-  /* background-color: #fff!important; */
   height: 80px!important;
-  /* position: fixed!important; */
   top: 0px;
   left: 0px;
   right: 0px;
@@ -265,7 +263,6 @@ header
 
 .header-area {
   background: transparent;
-  /* background-color: #fafafa; */
   position: absolute;
   top: 0px;
   left: 0px;
@@ -285,7 +282,6 @@ header
 
 .header-area .main-nav .logo {
   line-height: 100px;
-  /* color: #fff; */
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
@@ -845,7 +841,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 150px 0px 120px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -990,6 +986,13 @@ About Us Style
   width: 100%
 }
 
+.about-us .left-content {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 300px;
+  padding-right: 70px;
+}
+
 .about-us .left-content h2 {
   font-size: 36pt;
   color: #fff;
@@ -1019,21 +1022,14 @@ About Us Style
   margin: 20px 0px;
 }
 
-/* .about-us a {
-  color: #fff; 
-  text-decoration: underline;
-  text-decoration-color: #fff;
-  -webkit-text-decoration: underline;
-  -webkit-text-decoration-color: #fff;
-} */
-
 /* 
 ---------------------------------------------
 Footer Style
 --------------------------------------------- 
 */
 
-footer { 
+footer {
+  margin-top: 100px;
   text-align: center;
 }
 
