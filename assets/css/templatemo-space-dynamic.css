@@ -1008,6 +1008,12 @@ About Us Style
   margin: 20px 0px;
 }
 
+.about-us .left-content a {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: underline !important;
+}
+
 .about-us .right-content {
   background-color: #fff;
   text-align: center;
@@ -1029,6 +1035,12 @@ About Us Style
   margin: 20px 0px;
   display: table-caption;
   caption-side: bottom;
+}
+
+.about-us .right-content a {
+  color: #000;
+  background-color: transparent;
+  text-decoration: underline !important;
 }
 
 /* 
