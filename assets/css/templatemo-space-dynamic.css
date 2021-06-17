@@ -1031,6 +1031,9 @@ About Us Style
 }
 
 .about-us .right-content .wrapper .caption {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14pt;
   color: #144A10;
   margin: 20px 0px;
   display: table-caption;
