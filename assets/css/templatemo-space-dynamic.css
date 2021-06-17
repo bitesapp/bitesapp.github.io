@@ -28,7 +28,6 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&display=swap');
 /* 
 ---------------------------------------------
@@ -879,6 +878,7 @@ Banner Style
 
 .main-banner .left-content h2 {
   font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   font-size: 46pt;
   color: #144A10;
   line-height: 72px;
@@ -895,6 +895,7 @@ Banner Style
 
 .main-banner .left-content p {
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
   font-size: 21pt;
   color: #144A10;
   margin: 20px 0px;
@@ -959,9 +960,9 @@ Banner Style
 
 .main-banner .submitted p {
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
   font-size: 21pt;
   color: #000;
-  font-size: 13px;
 }
 
 
@@ -1001,6 +1002,7 @@ About Us Style
 
 .about-us .left-content p {
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
   font-size: 21pt;
   color: #fff;
   margin: 20px 0px;
