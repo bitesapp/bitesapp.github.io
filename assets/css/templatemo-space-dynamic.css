@@ -1014,14 +1014,21 @@ About Us Style
   height: 100%;
 }
 
-.about-us .right-content img {
-  padding-top: 50px;
+.about-us .right-content .wrapper {
+  display: table;
   width: 40%;
+  margin: auto;
 }
 
-.about-us .right-content p {
+.about-us .right-content .wrapper img {
+  padding-top: 50px;
+}
+
+.about-us .right-content .wrapper .caption {
   color: #144A10;
   margin: 20px 0px;
+  display: table-caption;
+  caption-side: bottom;
 }
 
 /* 
