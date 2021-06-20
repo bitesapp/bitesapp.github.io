@@ -28,7 +28,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 /* 
 ---------------------------------------------
 reset
@@ -840,7 +840,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 150px 0px 120px 0px;
+  padding: 150px 0px 30px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -879,9 +879,9 @@ Banner Style
 .main-banner .left-content h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 46pt;
+  font-size: 35pt;
   color: #144A10;
-  line-height: 72px;
+  line-height: 60px;
 }
 
 .main-banner .left-content h2 em {
@@ -895,14 +895,14 @@ Banner Style
 
 .main-banner .left-content p {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 21pt;
+  
+  font-size: 16pt;
   color: #144A10;
   margin: 20px 0px;
 }
 
 .main-banner .left-content form {
-  margin-top: 30px;
+  margin-top: 38px;
   width: 470px;
   height: 66px;
   position: relative;
@@ -918,29 +918,33 @@ Banner Style
   font-weight: 500;
   color: #144A10;
   text-transform: capitalize;
-  padding: 12px 25px;
-  border-radius: 23px;
+  padding: 12px 14px;
+  border-radius: 10px;
   letter-spacing: 0.25px;
   outline: none;
   border: none;
+
 }
+
 
 .main-banner .left-content form input {
   width: 470px;
   height: 66px;
   background-color: #144A10;
-  border-radius: 33px;
+  border-radius: 15px;
   border: none;
   outline: none;
   padding: 0px 25px;
+  font-family: 'Lato', sans-serif;
   color: #fff;
   letter-spacing: 0.25px;
   font-size: 15px;
-  font-weight: 300;
+  
 }
 
 .main-banner .left-content form input::placeholder {
   color: #fff;
+  font-family: 'Lato', sans-serif;
 }
 
 .main-banner .right-content {
@@ -955,13 +959,13 @@ Banner Style
 
 .main-banner .submitted {
   display: none;
-  text-align: center;
+  text-align: left;
 }
 
 .main-banner .submitted p {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 21pt;
+  
+  font-size: 14pt;
   color: #000;
 }
 
@@ -989,21 +993,21 @@ About Us Style
 
 .about-us .left-content {
   padding-top: 70px;
-  padding-bottom: 70px;
-  padding-left: 300px;
-  padding-right: 70px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 10px;
 }
 
 .about-us .left-content h2 {
-  font-size: 36pt;
+  font-size: 26pt;
   color: #fff;
-  line-height: 72px;
+  line-height: 30px;
 }
 
 .about-us .left-content p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 21pt;
+  font-size: 15pt;
   color: #fff;
   margin: 20px 0px;
 }
@@ -1032,10 +1036,11 @@ About Us Style
 
 .about-us .right-content .wrapper .caption {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 14pt;
-  color: #144A10;
+  
+  font-size: 12pt;
+  color: black;
   margin: 20px 0px;
+  text-align: left;
   display: table-caption;
   caption-side: bottom;
 }
@@ -1059,7 +1064,7 @@ footer {
 
 footer p {
   text-align: center;
-  margin: 30px 0px 45px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 footer ul {
@@ -1094,6 +1099,7 @@ ul#social-icon li {
   color: #000000;
 }
 
+
 /* 
 ---------------------------------------------
 responsive
@@ -1107,7 +1113,7 @@ responsive
   .main-banner .left-content {
     margin-right: 0px;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
   }
   .main-banner:after {
     top: 76px;
