@@ -25,13 +25,17 @@ function submitFormSuccess() {
     return false; // Prevent page refresh
     }
 
-$('#submit-form').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeObject(),
-    success: submitFormSuccess()
-  });
-})
+
+  $('#submit-form').on('click', function(e) {
+  if ($('#email-form')[0].checkValidity()) {
+
+      e.preventDefault();
+      var jqxhr = $.ajax({
+        url: url,
+        method: "GET",
+        dataType: "json",
+        data: $form.serializeObject(),
+        success: submitFormSuccess()
+      });
+    }
+  })

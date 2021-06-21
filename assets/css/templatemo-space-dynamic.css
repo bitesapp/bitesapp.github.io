@@ -903,7 +903,7 @@ Banner Style
 
 .main-banner .left-content form {
   margin-top: 38px;
-  width: 470px;
+  width: 490px;
   height: 66px;
   position: relative;
 }
@@ -911,14 +911,15 @@ Banner Style
 .main-banner .left-content form button {
   position: absolute;
   right: 10px;
-  top: 10px;
+  top: 7px;
   display: inline-block;
-  background-color: #fff;
+  background-color: #144A10;
   font-size: 15px;
   font-weight: 500;
-  color: #144A10;
+  color: white;
+   
   text-transform: capitalize;
-  padding: 12px 14px;
+  padding: 14px 18px;
   border-radius: 10px;
   letter-spacing: 0.25px;
   outline: none;
@@ -928,24 +929,30 @@ Banner Style
 
 
 .main-banner .left-content form input {
-  width: 470px;
+  width: 300px;
   height: 66px;
-  background-color: #144A10;
-  border-radius: 15px;
-  border: none;
-  outline: none;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #144A10;
+  
+  
   padding: 0px 25px;
   font-family: 'Lato', sans-serif;
-  color: #fff;
+  color: black;
   letter-spacing: 0.25px;
   font-size: 15px;
   
 }
+.main-banner .left-content form button:hover {
+  background-color: #FFE03E;
+  color: #144A10;
+}
 
 .main-banner .left-content form input::placeholder {
-  color: #fff;
+  color: black;
   font-family: 'Lato', sans-serif;
 }
+
 
 .main-banner .right-content {
   display: flex;
