@@ -969,8 +969,8 @@ Banner Style
 .main-banner .top-image img {
   height: auto;
   margin: auto;
-  padding-left: 5%;
-  padding-right: 1%;
+  
+
 }
 
 .main-banner .submitted {
@@ -1009,7 +1009,7 @@ About Us Style
 
 .about-us .left-content {
   padding-top: 70px;
-  padding-bottom: 6%;
+  padding-bottom: 7%;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -1056,7 +1056,7 @@ About Us Style
   font-size: 12pt;
   color: black;
   margin: 20px 0px;
-  text-align: left;
+  text-align: center;
   display: table-caption;
   caption-side: bottom;
 }
