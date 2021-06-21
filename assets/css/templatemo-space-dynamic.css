@@ -313,6 +313,7 @@ header
 
 .logo h4 span {
   color: #fe3f40;
+
 }
 
 .background-header .main-nav .logo h4 {
@@ -866,7 +867,7 @@ Banner Style
 }
 
 .main-banner .left-content {
-  margin-right: 45px;
+  margin-right: 10px;
 }
 
 .main-banner .left-content h6 {
@@ -879,7 +880,7 @@ Banner Style
 .main-banner .left-content h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 35pt;
+  font-size: 34pt;
   color: #144A10;
   line-height: 60px;
 }
@@ -940,7 +941,7 @@ Banner Style
   font-family: 'Lato', sans-serif;
   color: black;
   letter-spacing: 0.25px;
-  font-size: 15px;
+  font-size: 16px;
   
 }
 .main-banner .left-content form button:hover {
@@ -956,12 +957,20 @@ Banner Style
 
 .main-banner .right-content {
   display: flex;
-  align-items: center;
+  align-items: right;
+
 }
 
 .main-banner .right-content img {
   height: auto;
   margin: auto;
+ 
+}
+.main-banner .top-image img {
+  height: auto;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 1%;
 }
 
 .main-banner .submitted {
@@ -1000,9 +1009,9 @@ About Us Style
 
 .about-us .left-content {
   padding-top: 70px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .about-us .left-content h2 {
