@@ -928,6 +928,26 @@ Banner Style
 
 }
 
+.button{
+  width: 300px;
+  height: 66px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #144A10;
+  
+  
+  padding: 0px 25px;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  letter-spacing: 0.25px;
+  font-size: 16px;
+  
+}
+.button:hover {
+  background-color: #FFE03E;
+  color: #144A10;
+}
+
 
 .main-banner .left-content form input {
   width: 300px;
