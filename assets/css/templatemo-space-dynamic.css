@@ -196,41 +196,7 @@ body {
   color: #fe3f40;
 }
 
-.main-blue-button a {
-  display: inline-block;
-  background-color: #03a4ed;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
-  text-transform: capitalize;
-  padding: 12px 25px;
-  border-radius: 23px;
-  letter-spacing: 0.25px;
-}
 
-.main-red-button a {
-  display: inline-block;
-  background-color: #fe3f40;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
-  text-transform: capitalize;
-  padding: 12px 25px;
-  border-radius: 23px;
-  letter-spacing: 0.25px;
-}
-
-.main-white-button a {
-  display: inline-block;
-  background-color: #fff;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fe3f40;
-  text-transform: capitalize;
-  padding: 12px 25px;
-  border-radius: 23px;
-  letter-spacing: 0.25px;
-}
 
 /* 
 ---------------------------------------------
@@ -730,108 +696,7 @@ header
 }
 
 /* 
----------------------------------------------
-preloader
---------------------------------------------- 
-*/
 
-.js-preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #fff;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    opacity: 1;
-    visibility: visible;
-    z-index: 9999;
-    -webkit-transition: opacity 0.25s ease;
-    transition: opacity 0.25s ease;
-}
-
-.js-preloader.loaded {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-
-@-webkit-keyframes dot {
-    50% {
-        -webkit-transform: translateX(96px);
-        transform: translateX(96px);
-    }
-}
-
-@keyframes dot {
-    50% {
-        -webkit-transform: translateX(96px);
-        transform: translateX(96px);
-    }
-}
-
-@-webkit-keyframes dots {
-    50% {
-        -webkit-transform: translateX(-31px);
-        transform: translateX(-31px);
-    }
-}
-
-@keyframes dots {
-    50% {
-        -webkit-transform: translateX(-31px);
-        transform: translateX(-31px);
-    }
-}
-
-.preloader-inner {
-    position: relative;
-    width: 142px;
-    height: 40px;
-    background: #fff;
-}
-
-.preloader-inner .dot {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 12px;
-    left: 15px;
-    background: #fe3f40;
-    border-radius: 50%;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    -webkit-animation: dot 2.8s infinite;
-    animation: dot 2.8s infinite;
-}
-
-.preloader-inner .dots {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    margin-top: 12px;
-    margin-left: 31px;
-    -webkit-animation: dots 2.8s infinite;
-    animation: dots 2.8s infinite;
-}
-
-.preloader-inner .dots span {
-    display: block;
-    float: left;
-    width: 16px;
-    height: 16px;
-    margin-left: 16px;
-    background: #fe3f40;
-    border-radius: 50%;
-}
-
-
-
-/* 
 ---------------------------------------------
 Banner Style
 --------------------------------------------- 
@@ -904,16 +769,17 @@ Banner Style
 
 .main-banner .left-content form {
   margin-top: 38px;
-  width: 490px;
-  height: 66px;
+  width: 90%;
+  
   position: relative;
+
 }
 
-.main-banner .left-content form button {
+.main-banner form button {
+
   position: absolute;
-  right: 10px;
-  top: 7px;
-  display: inline-block;
+    top: 85px;
+
   background-color: #144A10;
   font-size: 15px;
   font-weight: 500;
@@ -936,7 +802,7 @@ Banner Style
   border: 2px solid #144A10;
   
   
-  padding: 0px 25px;
+
   font-family: 'Lato', sans-serif;
   color: black;
   letter-spacing: 0.25px;
@@ -994,13 +860,14 @@ Banner Style
 }
 
 .main-banner .submitted {
-  display: none;
+  display:none;
   text-align: left;
 }
 
 .main-banner .submitted p {
   font-family: 'Lato', sans-serif;
-  
+  padding-top: 5px;
+  padding-left:190px;
   font-size: 14pt;
   color: #000;
 }
@@ -1030,7 +897,7 @@ About Us Style
 .about-us .left-content {
   padding-top: 70px;
   padding-bottom: 7%;
-  padding-left: 10%;
+  padding-left: 80px;
   padding-right: 10%;
 }
 
